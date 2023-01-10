@@ -1,5 +1,3 @@
-CSS ABOUT
-
 body {
     margin: 40;
     color: #444444;
@@ -34,7 +32,7 @@ body {
   h3,
   .h3 {
     font-family: 'Mukta', sans-serif;
-    font-size: 28px;
+    font-size: 32px;
   }
   
   h4,
@@ -80,7 +78,6 @@ body {
     justify-content: center;
     text-align: center;
     line-height: 10px;
-    position: relative;
   }
   
   .cover-title-3 {
@@ -91,6 +88,16 @@ body {
     line-height: 10px;
     margin-right: 40px;
     position: relative;
+  }
+
+  .material-symbols-outlined {
+    color: #ff8800;
+  }
+
+  .text-columns {
+    column-count: 2;
+    column-gap: 50px;
+    flex-wrap: nowrap;
   }
 
   footer {
@@ -152,9 +159,15 @@ img {
 
 @media (max-widht: 790px) {
 
-
   .text-columns {
     column-count: 2;
     column-gap: 50px;
+    flex-wrap: nowrap;
+  }
+
+  .container-about {
+    display: flexbox;
+    min-height: 100vh;
+    column-count: 2;
   }
 }
