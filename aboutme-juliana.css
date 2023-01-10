@@ -1,90 +1,160 @@
+CSS ABOUT
+
 body {
     margin: 40;
-    font-family: 'Alegreya', sans-serif;
     color: #444444;
     background-color: #ffffff;
-    font-weight: 400;
 }
   
   h1,
   h2,
   h3,
-  h4,
+  h4 {
+    font-weight: 400;
+  }
+
   h5,
   h6 {
-    font-weight: 600;
+    font-weight: 200;
     margin-bottom: 0.5em;
   }
 
   h1,
   .h1 {
-    font-size: 42px;
+    font-family: 'Cookie', cursive;
+    font-size: 96px;
   }
   
   h2,
   .h2 {
-    font-size: 32px;
+    font-family: 'Cookie', cursive;
+    font-size: 48px;
   }
   
   h3,
   .h3 {
+    font-family: 'Mukta', sans-serif;
     font-size: 28px;
   }
   
   h4,
   .h4 {
+    font-family: 'Mukta', sans-serif;
     font-size: 24px;
   }
   
   h5,
   .h5 {
+    font-family: 'Mukta', sans-serif;
     font-size: 18px;
   }
   
   h6,
   .h6 {
+    font-family: 'Mukta', sans-serif;
     font-size: 16px;
   }
 
   header {
-    padding: 20px;
-    background-color: #d4c5ff;
-    color: #2c1c65  
+    padding: 5px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e6d3ff;
+    display: flexbox;
+    color: #3d1158;
+    border-radius: 12px;  
   }  
 
-  .img-about img {
-    height: 100%;
-
+  .cover-title-1 {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
   }
 
-  .img-education img {
-    height: 100%;
-
+  .cover-title-2 {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 10px;
+    position: relative;
   }
-
-  .img-softskills img {
-    height: 100%;
-
-  }
-
-  .img-hardskills img {
-    height: 100%;
-
-  }
-
-  .img-work img {
-    height: 100%;
-
+  
+  .cover-title-3 {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    line-height: 10px;
+    margin-right: 40px;
+    position: relative;
   }
 
   footer {
-    padding: 20px;
-    background-color: #d4c5ff;
-    color: #2c1c65
+    padding: 5px;
+    background-color: #edd3ff;
+    color: #3d1158;
   }
 
-  .phrase {
+  .contact {
     text-align: center;
   }
 
-  
+  .e-mail {
+    text-align: center;
+  }
+
+  .phrase {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+  }
+
+  .copy {
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px; 
+}  
+
+@media (min-width: 460px) {
+
+  .img-about {
+    width: 100%;
+  }
+
+  .img-education {
+    width: 100%;
+  }
+
+  .img-softskills {
+    width: 100%;
+  }
+
+  .img-hardskills {
+    width: 100%;
+  }
+
+  .img-work {
+    width: 100%;
+  }
+}
+
+@media (max-widht: 790px) {
+
+
+  .text-columns {
+    column-count: 2;
+    column-gap: 50px;
+  }
+}
