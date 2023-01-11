@@ -69,7 +69,6 @@ body {
     justify-content: center;
     text-align: left;
     margin-left: 20px;
-    position: relative;
   }
 
   .cover-title-2 {
@@ -87,17 +86,13 @@ body {
     text-align: right;
     line-height: 10px;
     margin-right: 40px;
-    position: relative;
   }
 
   .material-symbols-outlined {
     color: #ff8800;
-  }
-
-  .text-columns {
-    column-count: 2;
-    column-gap: 50px;
-    flex-wrap: nowrap;
+    vertical-align: middle;
+    padding: 0px 10px 0px 0px;
+    font-weight: 900;
   }
 
   footer {
@@ -112,6 +107,11 @@ body {
 
   .e-mail {
     text-align: center;
+  }
+
+  .e-mail .material-symbols-outlined {
+    color: #3d1158;
+    font-weight: 300;
   }
 
   .phrase {
@@ -130,11 +130,10 @@ body {
 img {
   width: 100%;
   height: auto;
-  object-fit: contain;
   border-radius: 12px; 
 }  
 
-@media (min-width: 460px) {
+@media (max-width: 480px) {
 
   .img-about {
     width: 100%;
@@ -157,7 +156,7 @@ img {
   }
 }
 
-@media (max-widht: 790px) {
+@media (min-width: 481px) {
 
   .text-columns {
     column-count: 2;
@@ -170,4 +169,15 @@ img {
     min-height: 100vh;
     column-count: 2;
   }
-}
+
+  .container-work {
+    display: flexbox;
+    min-height: 100vh;
+    column-count: 2;
+  }
+
+  .img {
+    width: auto;
+    height: 50%;
+    object-position: center top;
+  }}
