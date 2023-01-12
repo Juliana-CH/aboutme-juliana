@@ -1,6 +1,4 @@
 body {
-    margin-left: 20px;
-    margin-right: 20px;
     color: #444444;
     background-color: #ffffff;
 }
@@ -55,21 +53,21 @@ body {
   }
 
   header {
+    display: flexbox;
     padding: 5px;
     height: 100vh;
     width: 100vw;
     background-color: #e6d3ff;
-    display: flexbox;
     color: #3d1158;
-    border-radius: 12px;  
+    border-radius: 12px;
   }  
+
 
   .cover-title-1 {
     display: flexbox;
     align-items: center;
     justify-content: center;
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;
   }
 
   .cover-title-2 {
@@ -77,25 +75,21 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    line-height: 10px;
   }
   
   .cover-title-3 {
     display: flexbox;
     align-items: center;
     justify-content: center;
-    text-align: right;
+    text-align: center;
     line-height: 10px;
-    margin-right: 40px;
   }
 
-  .scrollDownSymbol .material-symbols-outlined {
+  /*.coverScroll {
     color: #3d1158;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
+    font-weight: 100;
+    display: flexbox;
+  }*/ 
 
   .material-symbols-outlined {
     color: #ff8800;
