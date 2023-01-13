@@ -3,7 +3,7 @@ const translationEs = {
   aboutMeSection1: "Quien soy",
   aboutMeSection2: "¡Hola! Soy Juliana, <strong>brasileña</strong> y actualmente vivo en Valencia, una hermosa ciudad en la costa de <strong>España</strong>. Soy <strong>madre</strong> de dos hijos increíbles, Maria Antônia y Romeo, que me enseñan a diario sobre el amor y la resiliencia, y <strong>casada</strong> con João, mi compañero de vida.",
   aboutMeSection3: "Me encanta jugar <strong>tenis playa</, compartir conocimientos</strong> y contribuir a que todos tengan oportunidades similares. ¡También me interesa la <strong>alimentación saludable, el consumo consciente</strong> y creo que la <strong>disciplina positiva</strong> es una importante herramienta para toda la sociedad!",
-  aboutMeSection4: "Tengo algunos años de experiencia trabajando en el área de <strong>publicidad</strong> del mayor canal de <strong>televisión</strong> de Brasil. Sin embargo, con el nacimiento de mis hijos, opté por dedicarme casi exclusivamente a ellos. Sin arrepentimientos, pero consciente desde el principio de que el reto de volver sería aún mayor. En el medio, participé en nuevos proyectos, involucrándome en la <strong>gestión y desarrollo de pequeñas empresas</strong>, pero dirigiéndolas de manera secundaria a mi vida personal. ¡Ahora tengo la confianza y la emoción de equilibrar estos intereses y reanudar mi carrera profesional!",
+  aboutMeSection4: "Llevo algunos años de experiencia trabajando en el área de <strong>publicidad</strong> del mayor canal de <strong>televisión</strong> de Brasil. Sin embargo, con el nacimiento de mis hijos, opté por dedicarme casi exclusivamente a ellos. Sin arrepentimientos, pero consciente desde el principio de que el reto de volver sería aún mayor. En el medio, participé en nuevos proyectos, involucrándome en la <strong>gestión y desarrollo de pequeñas empresas</strong>, pero dirigiéndolas de manera secundaria a mi vida personal. ¡Ahora tengo la confianza y la emoción de equilibrar estos intereses y reanudar mi carrera profesional!",
   aboutMeSection5: "Para empezar de nuevo, opté por estudiar esta área con conocimientos que se complementan, que son <strong>Desarrollo Web Front-End, Marketing Digital y UX/UI</strong>. Considero que la tecnología es un camino sin retorno y veo en ella la posibilidad de hacer converger distintos intereses y realizar proyectos relevantes. Estoy segura que mis experiencias pasadas, pero principalmente mi nueva versión, podrán aportar mucho.",
   aboutMeSection6: "¡Bienvenidos!",
 
@@ -173,14 +173,14 @@ const translationPt = {
 
 function translateElement (node, newLanguage) {
   const i18nKey = node.getAttribute('data-i18nkey'); // cojo el valor que hay en data-i18nkey del nodo que le paso como parámetro
-  const translationObject = translationEn; // cojo el objeto donde está la traducción que necesito en función del idioma
+  let translationObject = translationEn; // cojo el objeto donde está la traducción que necesito en función del idioma
   if(newLanguage === 'es') {
       translationObject = translationEs;
   } else if (newLanguage === 'pt'){
       translationObject = translationPt;
   }
   const newText = translationObject[i18nKey]; // cojo el texto traducido que está en la propiedad del objeto de traducción cuyo nombre está almacenado en i18nKey 
-  node.innerHtml= newText; // asigno el nuevo texto al nodo
+  node.innerHTML= newText; // asigno el nuevo texto al nodo
 }
 
 function translateAll(newLanguage) {
