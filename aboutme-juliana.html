@@ -9,105 +9,115 @@
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Mukta:wght@200&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="aboutme-juliana.css">
+    <script async src="./aboutme-juliana.js"></script>
     <title>Juliana Chraim Hazim</title>
 </head>
 
 <body>
     <header>
-        <h3 class="cover-title-1">SOBRE MIM</h3>
-        <h1 class="cover-title-2">Juliana Hazim</h1>
-        <h3 class="cover-title-3">MARKETING DIGITAL SPECIALIST</h3>
-        <h3 class="cover-title-3">FRONT-END DEVELOPER</h3>
-        <h3 class="cover-title-3">UX/ UI DESIGNER</h3>
+        <div class="btn">
+            <button data-language="pt">PT-BR</button>
+            <button data-language="es">ESP</button>
+            <button data-language="en">ENG</button>
+        </div>
+        <div class="about">
+            <h3 class="cover-title-1" data-i18nkey="aboutMeTitle">SOBRE MIM</h3>
+            <h1 class="cover-title-2">Juliana Chraim Hazim</h1>
+            <h3 class="cover-title-3">MARKETING DIGITAL SPECIALIST</h3>
+            <h3 class="cover-title-3" >FRONT-END DEVELOPER</h3>
+            <h3 class="cover-title-3">UX/ UI DESIGNER</h3>
+            <h6 class="scrollDown">Scroll down</h6>
+        </div>
     </header>
 
     <section>
-        <h2>Quem sou eu</h2>
+        <h2 data-i18nkey="aboutMeSection1">Quem sou eu</h2>
         <div class="container-about">
         <div class="img-about">
-        <img src="img-aboutme.png" alt="Foto de Juliana, com o cabelo solto, vestindo uma camisa branca e com os cotovelos apoiados sobre uma mesa.">
+            <img src="img-aboutme.png" alt="Foto de Juliana, com o cabelo solto, vestindo uma camisa branca e com os cotovelos apoiados sobre uma mesa.">
         </div>
         <h5>
-            <p>Olá! Eu sou Juliana, <strong>brasileira</strong> e atualmente vivendo em Valencia, uma linda cidade no litoral da <strong>Espanha</strong>. Sou <strong>mãe</strong> de duas crianças incríveis, a Maria Antônia e o Romeo, que me ensinam diariamente sobre amor e resiliência, e <strong>casada</strong> com o João, meu parceiro de vida.</p>
-            <p>Adoro jogar <strong>beach tennis, compartilhar conhecimento</strong> e contribuir para que todos tenham oportunidades semelhantes. Também me interesso muito por <strong>alimentação saudável, consumo consciente</strong> e julgo <strong>educação parental</strong> um aprendizado útil para toda a sociedade!</p>
-            <p>Tenho alguns anos de <strong>experiência</strong> trabalhando na área de <strong>publicidade</strong> do maior canal de <strong>televisão</strong> do Brasil. Entretanto, com o nascimento dos meus filhos, escolhi me dedicar quase que exclusivamente à eles. Sem arrepedimento, mas, consciente desde o princípio de que o desafio do retorno seria ainda maior. No entremeio, participei de novos projetos, envolvida em <strong>gestão</strong> e <strong>desenvolvimento</strong> de <strong>pequenos negócios</strong>, mas encaminhando-os de forma secundária à minha vida pessoal. Agora estou segura e animada para <strong>equilibrar</strong> esses interesses e retomar minha carreira profissional!</p>
-            <p>Para recomeçar, escolhi estudar essa área com conhecimentos que se complementam, que são o desenvolvimento <strong>Web Front-End, Marketing Digital e UX/ UI</strong>. Acredito que a tecnologia é uma caminho sem volta e vejo nela, a possibilidade de convergir diversos interesses e realizar projetos relevantes. Estou segura de que minhas experiências passadas, mas principalmente, minha nova versão, poderão agregar em muito.</p>
-            <p>Bem vindos!</p>
+            <p data-i18nkey="aboutMeSection2">Olá! Eu sou Juliana, <strong>brasileira</strong> e atualmente vivendo em Valencia, uma linda cidade no litoral da <strong>Espanha</strong>. Sou <strong>mãe</strong> de duas crianças incríveis, a Maria Antônia e o Romeo, que me ensinam diariamente sobre amor e resiliência, e <strong>casada</strong> com o João, meu parceiro de vida.</p>
+            <p data-i18nkey="aboutMeSection3">Adoro jogar <strong>beach tennis, compartilhar conhecimento</strong> e contribuir para que todos tenham oportunidades semelhantes. Também me interesso muito por <strong>alimentação saudável, consumo consciente</strong> e julgo <a href=""></a><strong>disciplina positiva</strong> uma ferramenta útil para toda a sociedade!</p>
+            <p data-i18nkey="aboutMeSection4">Tenho alguns anos de experiência trabalhando na área de <strong>publicidade</strong> do maior canal de <strong>televisão</strong> do Brasil. Entretanto, com o nascimento dos meus filhos, escolhi me dedicar quase que exclusivamente à eles. Sem arrepedimento, mas, consciente desde o princípio de que o desafio do retorno seria ainda maior. No entremeio, participei de novos projetos, envolvida em <strong>gestão</strong> e <strong>desenvolvimento</strong> de <strong>pequenos negócios</strong>, mas encaminhando-os de forma secundária à minha vida pessoal. Agora estou segura e animada para <strong>equilibrar</strong> esses interesses e retomar minha carreira profissional!</p>
+            <p data-i18nkey="aboutMeSection5">Para recomeçar, escolhi estudar essa área com conhecimentos que se complementam, que são o desenvolvimento <strong>Web Front-End, Marketing Digital e UX/ UI</strong>. Acredito que a tecnologia é uma caminho sem volta e vejo nela, a possibilidade de convergir diversos interesses e realizar projetos relevantes. Estou segura de que minhas experiências passadas, mas principalmente, minha nova versão, poderão agregar em muito.</p>
+            <p data-i18nkey="aboutMeSection6">Bem vindos!</p>
         </h5>
         </div>
     </section>
 
     <section>
-        <h2>Formação acadêmica</h2>
+        <h2 data-i18nkey="educationTitle">Formação acadêmica</h2>
         <div class="img-education">
         <img src="img-education.jpg" alt="Imagem de dois diplomas, um aberto e outro enrolado, amarrado com uma fita preta. Ambos estão com um fundo rosa claro e há confetes dourados.">
         </div>
         <h5>
             <ul>
-                <div><span class="material-symbols-outlined">done</span> Pós-graduação em curso (2022/ 2023) em <strong>Desenvolvimento Web Front-End, Marketing Digital e UX/ UI Designer</strong>, pela Escola Superior de Arte e Tecnologia (ESAT), Valencia, Espanha;</div>
-                <div><span class="material-symbols-outlined">done</span> Pós-graduada em <strong>Inteligência de Mercado</strong> em 2011, pela Fundação Instituto de Administração (FIA), São Paulo, Brasil;</div>
-                <div><span class="material-symbols-outlined">done</span> <strong>Administradora de Empresas</strong>, formada em 2009 pela Universidade do Estado de Santa Catarina (UDESC/ ESAG), Florianópolis, Brasil.</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="educationSection1">done</span> Pós-graduação em curso (2022/ 2023) em <strong>Desenvolvimento Web Front-End, Marketing Digital e UX/ UI Designer</strong>, pela Escola Superior de Arte e Tecnologia (ESAT), Valencia, Espanha;</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="educationSection2">done</span> Pós-graduada em <strong>Inteligência de Mercado</strong> em 2011, pela Fundação Instituto de Administração (FIA), São Paulo, Brasil;</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="educationSection3">done</span> <strong>Administradora de Empresas</strong>, formada em 2009 pela Universidade do Estado de Santa Catarina (UDESC/ ESAG), Florianópolis, Brasil.</div>
             </ul>
         </h5>
     </section>
 
     <section>
-        <h2>Soft skills</h2>
-        <div class="img-softskills">
-        <img src="img-softskills.jpg" alt="Imagem de uma mesa clara, vista de cima, com oito peças de louças rústicas em cerâmica, sendo uma vermelha, em formato de coração, duas verdes em formatos de folhas e as demais claras.">
-        </div>
-        <div class="text-columns">
-        <h3><b class="skillColor1">||</b> COMPROMETIDA</h3>
-        <h5>Em 4 meses desempenhando como Executiva de Contas, fui indicada como finalista do VI Prêmio Mídia Destaca. O prêmio é de âmbito regional e a eleição é através de votação entre os clientes. Estar entre as finalistas, apontou que minha atuação estava alinhada às necessidades do mercado.</h5>
-        <h3><b class="skillColor2">||</b> ORGANIZADA</h3>
-        <h5>Acredito em organização como um estilo de vida para uma rotina otimizada e de qualidade. Já tive um e-commerce de produtos e serviços de organização.</h5>
-        <h3><b class="skillColor3">||</b> RESOLUTIVA</h3>
-        <h5>Acredito que buscar um culpado em situações de conflito é mau emprego de tempo, exceto se for importante para o aprendizado de uma, ou ambas partes. Prefiro focar em solução, visando produtividade.</h5>
-        <h3><b class="skillColor4">||</b> OTIMISTA</h3>
-        <h5>Fui responsável por implementar o sistema Microsoft CRM para toda a equipe de vendas do estado. Os gestores de contas estavam resistentes, mas visitei cada sede da empresa, apresentei a ferramenta, ministrei treinamentos e aos poucos, com o apoio dos profissionais de marketing de cada sucursal, a ferramenta tornou-se útil. Fui convidada para apresentar como case no encontro anual da equipe.</h5>
-        <h3><b class="skillColor5">||</b> TRABALHO EM EQUIPE</h3>
-        <h5>Executamos um grande projeto na TV que consistia em um reality show de modelos, envolvia programas especiais, entradas ao vivo, produção de conteúdo em diversos meios, organização de eventos e claro, atenção ao cliente. O projeto foi sucesso e teve novas edições por alguns anos consecutivos.</h5>
-        <h3><b class="skillColor6">||</b> ADAPTÁVEL</h3>
-        <h5>Mudança é algo comum para mim, quando criança, em função do trabalho do meu pai, morei em 6 cidades diferentes. Além disso, me mudei de estado e de país, por opção e vontade de viver novas experiências!</h5>
-        <h3><b class="skillColor7">||</b> COLABORATIVA</h3>
-        <h5>Animais de rua, infelizmente, são um problema de saúde pública no Brasil e com pouca ação efetiva dos governos. Com o objetivo de dar uma vida digna aos bichinhos, resgatei vários animais da rua, direcionando-os para que recebessem atendimento veterinário básico, para finalmente encaminhá-los para adoção responsável.</h5>
-        <h3><b class="skillColor8">||</b> ENTUSIASTA</h3>
-        <h5>Fui responsável por redesenhar o projeto de um canal de TV fechado, em parceria com um colega focado no produto. Sabíamos que era um trabalho paleativo, enquanto definições maiores estavam sendo revistas, mas ainda assim, planejamos e executamos com o máximo grau de responsabilidade e respeito pelo negócio. Fizemos um trabalho incansável, mudanças corajosas, - algumas impopulares - mas que nos renderam um novo negócio, muito mais robusto.</h5>
-        </div>
+        <h2 data-i18nkey="softSkillsTitle">Soft skills</h2>
+            <div class="img-softskills">
+                <img src="img-softskills.jpg" alt="Imagem de uma mesa clara, vista de cima, com oito peças de louças rústicas em cerâmica, sendo uma vermelha, em formato de coração, duas verdes em formatos de folhas e as demais claras.">
+            </div>
+            <div class="text-columns">
+                <h3><b class="skillColor1" data-i18nkey="softSkillsTitle1">||</b> COMPROMETIDA</h3>
+                <h5 data-i18nkey="softSkillsSection1">Em 4 meses desempenhando como Executiva de Contas, fui indicada como finalista do VI Prêmio Mídia Destaca. O prêmio é de âmbito regional e a eleição é através de votação entre os clientes. Estar entre as finalistas, apontou que minha atuação estava alinhada às necessidades do mercado.</h5>
+                <h3><b class="skillColor2" data-i18nkey="softSkillsTitle2">||</b> ORGANIZADA</h3>
+                <h5 data-i18nkey="softSkillsSection2">Acredito em organização como um estilo de vida para uma rotina otimizada e de qualidade. Já tive um e-commerce de produtos e serviços de organização.</h5>
+                <h3><b class="skillColor3" data-i18nkey="softSkillsTitle3">||</b> RESOLUTIVA</h3>
+                <h5 data-i18nkey="softSkillsSection3">Acredito que buscar um culpado em situações de conflito é mau emprego de tempo, exceto se for importante para o aprendizado de uma, ou ambas partes. Prefiro focar em solução, visando produtividade.</h5>
+                <h3><b class="skillColor4" data-i18nkey="softSkillsTitle4">||</b> OTIMISTA</h3>
+                <h5 data-i18nkey="softSkillsSection4">Fui responsável por implementar o sistema Microsoft CRM para toda a equipe de vendas do estado. Os gestores de contas estavam resistentes, mas visitei cada sede da empresa, apresentei a ferramenta, ministrei treinamentos e aos poucos, com o apoio dos profissionais de marketing de cada sucursal, a ferramenta tornou-se útil. Fui convidada para apresentar como case no encontro anual da equipe.</h5>
+                <h3><b class="skillColor5" data-i18nkey="softSkillsTitle5">||</b> TRABALHO EM EQUIPE</h3>
+                <h5 data-i18nkey="softSkillsSection5">Executamos um grande projeto na TV que consistia em um reality show de modelos, envolvia programas especiais, entradas ao vivo, produção de conteúdo em diversos meios, organização de eventos e claro, atenção ao cliente. O projeto foi sucesso e teve novas edições por alguns anos consecutivos.</h5>
+                <h3><b class="skillColor6" data-i18nkey="softSkillsTitle6">||</b> ADAPTÁVEL</h3>
+                <h5 data-i18nkey="softSkillsSection6">Mudança é algo comum para mim, quando criança, em função do trabalho do meu pai, morei em 6 cidades diferentes. Além disso, me mudei de estado e de país, por opção e vontade de viver novas experiências!</h5>
+                <h3><b class="skillColor7" data-i18nkey="softSkillsTitle7">||</b> COLABORATIVA</h3>
+                <h5 data-i18nkey="softSkillsSection7">Animais de rua, infelizmente, são um problema de saúde pública no Brasil e com pouca ação efetiva dos governos. Com o objetivo de dar uma vida digna aos bichinhos, resgatei vários animais da rua, direcionando-os para que recebessem atendimento veterinário básico, para finalmente encaminhá-los para adoção responsável.</h5>
+                <h3><b class="skillColor8" data-i18nkey="softSkillsTitle8">||</b> ENTUSIASTA</h3>
+                <h5 data-i18nkey="softSkillsSection8">Fui responsável por redesenhar o projeto de um canal de TV fechado, em parceria com um colega focado no produto. Sabíamos que era um trabalho paleativo, enquanto definições maiores estavam sendo revistas, mas ainda assim, planejamos e executamos com o máximo grau de responsabilidade e respeito pelo negócio. Fizemos um trabalho incansável, mudanças corajosas, - algumas impopulares - mas que nos renderam um novo negócio, muito mais robusto.</h5>
+            </div>
     </section>
 
     <section>
-        <h2>Hard skills</h2>
-        <div class="img-hardskills">
-        <img src="img-hardskills.jpg" alt="Imagem de 8 tabletes de chocolate crocantes, cortados ao meio e empilhados. Estão intercalados entre chocolate ao leite, chocolate amargo e chocolate branco.">
-        </div>
+        <h2 data-i18nkey="hardSkillsTitle">Hard skills</h2>
+            <div class="img-hardskills">
+                <img src="img-hardskills.jpg" alt="Imagem de 8 tabletes de chocolate crocantes, cortados ao meio e empilhados. Estão intercalados entre chocolate ao leite, chocolate amargo e chocolate branco.">
+            </div>
         <h5>
             <ul>
-                <div><span class="material-symbols-outlined">done</span><strong>Inglês</strong></span>
-                <div><span class="material-symbols-outlined">done</span><strong>Espanhol</strong></span>
-                <div><span class="material-symbols-outlined">done</span><strong>Figma</strong></span>
-                <div><span class="material-symbols-outlined">done</span><strong>JavaScript</strong></span>
-                <div><span class="material-symbols-outlined">done</span><strong>HTML e CSS</strong></span>
-                <div><span class="material-symbols-outlined">done</span><strong>WordPress</strong></span>
-                <div><span class="material-symbols-outlined">done</span><strong>Pacote Office</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection1">done</span><strong>Inglês</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection2">done</span><strong>Espanhol</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection3">done</span><strong>Português</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection4">done</span><strong>Figma</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection5">done</span><strong>JavaScript</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection6">done</span><strong>HTML e CSS</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection7">done</span><strong>WordPress</strong></span>
+                <div><span class="material-symbols-outlined" data-i18nkey="hardSkillsSection8">done</span><strong>Pacote Office</strong></span>
             </ul>
         </h5>
     </section>
 
     <section>
-        <h2>Experiência profissional</h2>
+        <h2 data-i18nkey="workExperienceTitle">Experiência profissional</h2>
         <div class="container-work">
         <h5>
-            <p>No decorrer da minha vida profissional, tive algumas experiências diferentes, desde estágio em banco, à cargos em uma grande empresa, além de oportunidades de desenvolver o meu e outros pequenos negócios.</p>
+            <p data-i18nkey="workExperienceSection1">No decorrer da minha vida profissional, tive algumas experiências diferentes, desde estágio em banco, à cargos em uma grande empresa, além de oportunidades de desenvolver o meu e outros pequenos negócios.</p>
             <p>Entretanto, cito abaixo somente minha atuação no Grupo RBS, uma empresa que contava com mais de 6 mil funcionários, afiliada de Rede Globo no sul do Brasil. Ali, recebi oportunidades de mobilidade que contribuíram para a minha visão de mercado e formação profissional.</p>
             <ul>
-                <div><span class="material-symbols-outlined">done</span>Executiva de Contas - RBS TV, 2012;</div>
-                <div><span class="material-symbols-outlined">done</span>Coordenadora de Negócios - TVCOM SC, 2011;</li>
-                <div><span class="material-symbols-outlined">done</span>Analista de Planejamento - Grupos RBS, 2010;</div>
-                <div><span class="material-symbols-outlined">done</span>Analista de Marketing - RBS TV SC, 2008, 2010;</div>
-                <div><span class="material-symbols-outlined">done</span>Estagiária de Marketing - RBS TV SC, 2007.</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="workExperienceSection2">done</span>Executiva de Contas - RBS TV, 2012;</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="workExperienceSection3">done</span>Coordenadora de Negócios - TVCOM SC, 2011;</li>
+                <div><span class="material-symbols-outlined" data-i18nkey="workExperienceSection4">done</span>Analista de Planejamento - Grupos RBS, 2010;</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="workExperienceSection5">done</span>Analista de Marketing - RBS TV SC, 2008, 2010;</div>
+                <div><span class="material-symbols-outlined" data-i18nkey="workExperienceSection6">done</span>Estagiária de Marketing - RBS TV SC, 2007.</div>
             </ul>
-            <p>Sobre as outras experiências, adoraria compartilhar em uma conversa descontraída, entre em contato!</p>
+            <p data-i18nkey="workExperienceSection7">Sobre as outras experiências, adoraria compartilhar em uma conversa descontraída, entre em contato!</p>
         </h5>
         <div class="img-work">
         <img src="img-work.jpg" alt="Imagem de uma mesa de trabalho clara, vista de cima, com um notebook aberto no canto superior esquerdo, seguido em sentido horário por um caderno em branco, uma plantinha verde pequena, no canto direito abaixo, três canetas cor de rosa, seguido por um iphone, envelopes, post-its e clips.">
@@ -117,13 +127,13 @@
 
     <footer>
         <h5>
-            <p class="contact">Se quiser saber mais, entre em contato!</p>
+            <p class="contact" data-i18nkey="footerSection1">Entre em contato!</p>
             <p class="e-mail"><span class="material-symbols-outlined">
                 mail</span>
                 
                 ju.hazim@gmail.com</p>
                 
-            <p class="phrase"><i>"Onde não puderes amar, não te demores". (Frida Khalo)</i></p>
+            <p class="phrase" data-i18nkey="footerSection2"><i>"Onde não puderes amar, não te demores". (Frida Kahlo)</i></p>
             <p class="copy">Copyright &copy; Juliana Chraim Hazim</p>
         </h5>
     </footer>
