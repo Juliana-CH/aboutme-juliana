@@ -71,13 +71,15 @@ body {
   }*/
 
   button {
+    appearance: none;
     padding: 5px;
-    border: none;
-    display: flexbox;
+    border-radius: 5px;
+    display: inline-block;
     text-align: right;
-    background-color: #e6d3ff;
-    text-decoration: underline;
+    background-color: #3d1158;
+    color: #fff;
     margin-top: 10px;
+    cursor: pointer;
   }
 
   .btn {
@@ -231,7 +233,6 @@ img {
     margin-left: 10px;
     column-count: 2;
     column-gap: 30px;
-    flex-wrap: nowrap;
   }
 
   .container-about {

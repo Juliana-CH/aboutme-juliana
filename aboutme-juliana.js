@@ -1,5 +1,9 @@
 const translationEs = {
-  aboutMeTitle: "Sobre mí",
+  aboutMeTitle: "SOBRE MÍ",
+  aboutMeFunction1: "ESPECIALISTA EN MARKETING DIGITAL",
+  aboutMeFunction2: "DESARROLLADORA FRONT-END",
+  aboutMeFunction3: "DISEÑADORA UX/ UI",
+
   aboutMeSection1: "Quien soy",
   aboutMeSection2: "¡Hola! Soy Juliana, <strong>brasileña</strong> y actualmente vivo en Valencia, una hermosa ciudad en la costa de <strong>España</strong>. Soy <strong>madre</strong> de dos hijos increíbles, Maria Antônia y Romeo, que me enseñan a diario sobre el amor y la resiliencia, y <strong>casada</strong> con João, mi compañero de vida.",
   aboutMeSection3: "Me encanta jugar <strong>tenis playa</, compartir conocimientos</strong> y contribuir a que todos tengan oportunidades similares. ¡También me interesa la <strong>alimentación saludable, el consumo consciente</strong> y creo que la <strong>disciplina positiva</strong> es una importante herramienta para toda la sociedad!",
@@ -56,7 +60,11 @@ const translationEs = {
 }
 
 const translationEn = {
-  aboutMeTitle: "About me",
+  aboutMeTitle: "ABOUT ME",
+  aboutMeFunction1: "MARKETING DIGITAL SPECIALIST",
+  aboutMeFunction2: "FRONT-END DEVELOPER",
+  aboutMeFunction3: "UX/ UI DESIGNER",
+
   aboutMeSection1: "Who am I",
   aboutMeSection2: "Hi! I'm Juliana, I’m Brazilian and currently living in Valencia, a beautiful city on the coast of Spain. I’m mother of two incredible children, Maria Antônia and Romeo, who teach me everyday about love and resilience, besides, I am married to João, my life partner.",
   aboutMeSection3: "I love playing <strong>beach tennis, sharing knowledge</strong> and contributing to everyone having similar opportunities. I am also very interested in <strong>healthy eating, consciously consume</strong> and I believe that <strong>positive discipline</strong> is a useful learning for society as a whole!",
@@ -113,7 +121,11 @@ const translationEn = {
 }
 
 const translationPt = {
-  aboutMeTitle: "Sobre mim",
+  aboutMeTitle: "SOBRE MIM",
+  aboutMeFunction1: "ESPECIALISTA EM MARKETING DIGITAL",
+  aboutMeFunction2: "DESENVOLVEDORA FRONT-END",
+  aboutMeFunction3: "DESIGNER UX/ UI",
+
   aboutMeSection1: "Quem sou",
   aboutMeSection2: "Olá! Eu sou Juliana, <strong>brasileira</strong> e atualmente vivendo em Valencia, uma linda cidade no litoral da <strong>Espanha</strong>. Sou <strong>mãe</strong> de duas crianças incríveis, a Maria Antônia e o Romeo, que me ensinam diariamente sobre amor e resiliência, e <strong>casada</strong> com o João, meu parceiro de vida.",
   aboutMeSection3: "Adoro jogar <strong>beach tennis, compartilhar conhecimento</strong> e contribuir para que todos tenham oportunidades semelhantes. Também me interesso muito por <strong>alimentação saudável, consumo consciente</strong> e julgo <strong>disciplina positiva</strong> uma ferramenra muito útil para toda a sociedade!",
