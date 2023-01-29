@@ -1,39 +1,58 @@
+:root{
+--ORANGE: HSL(32 100% 50%);
+--SECONDARY-PURPLE: HSL(274 100% 55%);
+--GREEN: HSL(135 80% 39%);
+--RED: HSL(352 95% 42%);
+--YELLOW: HSL(47 100% 50%); 
+--PINK: HSL(310 100% 46%);
+--BLUE: HSL(211 100% 50%);
+--LIGHT-GREEN: HSL(164 86% 44%);
+}
+
+
 .skillColor1 {
-    color: #ff8800;
+    color: var(--ORANGE);
 
 }
+
 
 .skillColor2 {
-    color: #9b19ff;
-    
+    color: var(--SECONDARY-PURPLE); 
+
 }
+
 
 .skillColor3 {
-    color: #10d19e;
-    
+    color: var(--GREEN);
+
 }
+
 
 .skillColor4 {
-    color: #d00520;
+    color: var(--RED);
     
 }
+
 
 .skillColor5 {
-    color: #ffc800;
+    color: var(--YELLOW);
     
 }
+
 
 .skillColor6 {
-    color: #ec00c5;
+    color: var(--PINK);
     
 }
+
 
 .skillColor7 {
-    color: #007bff;
+    color: var(--BLUE);
     
 }
 
+
 .skillColor8 {
-    color: #14b33c;
+    color: var(--LIGHT-GREEN);
     
 }
