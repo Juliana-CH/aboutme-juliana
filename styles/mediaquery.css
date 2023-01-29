@@ -1,0 +1,55 @@
+@media (max-width: 480px) {
+
+  .img-about {
+    width: 100%;
+  }
+
+  .img-education {
+    width: 100%;
+  }
+
+  .img-softskills {
+    width: 100%;
+  }
+
+  .img-hardskills {
+    width: 100%;
+  }
+
+  .img-work {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  
+  .cover-title-2 {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .text-columns {
+    margin-left: 10px;
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  .container-about {
+    display: flexbox;
+    min-height: 100vh;
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  .container-work {
+    display: flexbox;
+    min-height: 100vh;
+    column-count: 2;
+    column-gap: 30px;
+  }
+}

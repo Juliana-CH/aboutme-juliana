@@ -1,0 +1,32 @@
+footer {
+    padding: 5px;
+    background-color: #edd3ff;
+    color: #3d1158;
+    border-radius: 12px;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .e-mail {
+    text-align: center;
+  }
+
+  .e-mail .material-symbols-outlined {
+    color: #3d1158;
+    font-weight: 300;
+  }
+
+  .phrase {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+  }
+
+  .copy {
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 20px;
+  }
